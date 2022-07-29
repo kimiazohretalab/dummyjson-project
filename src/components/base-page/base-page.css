@@ -1,0 +1,40 @@
+.page-title {
+    font-size: 36px;
+    margin: 0 0 20px;
+  }
+  .page-title > span {
+    border-bottom: 3px solid orangered;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fa9a41;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #488535;
+  }
+  .badge{
+    display: inline-block;
+    background-color: red;
+    color: black;
+    padding: 0px 10px;
+    border-radius: 50%;
+    margin-top: 0px;
+
+  }

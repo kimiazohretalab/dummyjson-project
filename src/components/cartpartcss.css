@@ -1,0 +1,23 @@
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .table tr:nth-child(even){background-color: #ffe6d4;}
+  .table tr:hover {background-color: #d97021;}
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ccaf2f;
+    color: white;
+  }
+.design-h{
+    text-align: left;
+    color: #1a581a;
+    font-weight: bold;
+    font-size: 25px;
+}
